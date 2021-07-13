@@ -1,1 +1,1 @@
-web: gunicorn pBlog/wsgi.py
+web: gunicorn pBlog.wsgi
