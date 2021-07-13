@@ -1,1 +1,1 @@
-web: gunicorn PortfolioBlog.wsgi
+web: gunicorn PortfolioBlog.pBlog.wsgi
