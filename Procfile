@@ -1,1 +1,1 @@
-web: gunicorn pBblog:app
+web: gunicorn PortfolioBlog/pBblog:app
