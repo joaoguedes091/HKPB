@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from  django.http import HttpResponse
+from blog import models
 # Create your views here.
 
 def index(request):
-    return HttpResponse('this is a test')
+    testModel = models.Test.objects.get(pk=1)
+    return HttpResponse(testModel.name)
