@@ -5,4 +5,4 @@ from blog import models
 
 def index(request):
     testModel = models.Test.objects.get(pk=1)
-    return HttpResponse(testModel.name)
+    return render(request, 'index.html', {'testModel':testModel})
