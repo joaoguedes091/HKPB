@@ -1,0 +1,40 @@
+
+html {
+    background-color: #ffffd4;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-color: #f6f5f4;
+    border-style: solid;
+    border-width:1px;
+    border-left:none;
+    border-right:none;
+    margin-top: 9px;
+}
+
+.btn {
+    border:none;
+    width:100px;
+    height:30px;
+    flex-basis: | auto;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border-style:dotted;
+    border-width: 1px;
+}
+
+header {
+    font-size:19px;
+    margin-top:15px;
+}
+

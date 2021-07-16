@@ -1,7 +1,28 @@
 {% load static %}
 
+<html>
+
+<header> Ishida.dev { <img src="{% static 'pythonicon.png' %}"> <img src="{% static 'djangoicon.png' %}"> <img src="{% static 'htmlicon.png' %}"> <img src="{% static 'cssicon.png' %}"> }</header>
+
+<body>
 
 
-<img src="{% static '/faz2.png' %}" alt='mypic'>
+
+<link rel="stylesheet" href="{% static 'index.css' %}">
+
+<div class="container">
+<a href="#projects"><button class="btn"> Projects </button></a>
+<button class="btn"> Blog </button>
+<button class="btn"> About </button>
+<button class="btn"> Contact </button>
+<button class="btn"> Github </button>
+
+
+</div>
 
 {{ testModel.name }}
+
+
+</body>
+
+</html>
